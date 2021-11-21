@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container1{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*   navbar   */
+
+.navbar{
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+}
+
+.logo img{
+    display: flex;
+}
+
+.logo{
+    padding: 16px 0;
+}
+
+.menu-nav{
+    display: flex;
+    list-style: none;
+    padding: 16px 0;
+    margin-left: auto;
+}
+
+
+.menu-nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 16px ;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.menu-nav li a:active{
+    /* transition: 0.5 ease-in-out; */
+    background: rgba(25, 25, 25, 0.7);
+    color: white;
+    border-color: rgba(25, 25, 25, 0.7);
+}
+
+.menu-nav li a:hover{
+    /* transition: 0.5 ease-in-out; */
+    border-bottom: 3px solid black;
+}
+
+
+.number{
+    padding: 8px;
+    display: flex;
+    
+}
+
+.number a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 8px 16px;
+    background-color: #00BAFC;
+    border-radius: 5px;
+    color: white;
+    border: 3px solid #00BAFC;
+}
+
+.number a:hover{
+    background-color:white;
+    color:#00BAFC;
+}
+.number a:active{
+    background-color: rgba(0,186, 252, 0.6);
+    border: none;
+    border: solid 3px rgba(0,186, 252, 0.6);
+    color: white;
+}
+
+
+
+
+
+/* main xizmatlar */
+
+.xizmatlar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.xizmatlar-text{
+    padding-bottom: 90px;
+    padding-top: 90px;
+    margin: 20px ;
+}
+
+.xizmatlar-text h1{
+    font-size: 30px;
+    font-weight: 6px;
+    margin-bottom: 16px;
+}
+
+.xizmatlar-text p{
+  font-weight: normal;
+  font-size: 16px;
+  padding-right: 170px;
+  line-height: 24px;
+}
+
+
+
+.video{
+    padding: 80px;
+}
+
+.video iframe{
+    border-radius: 5px;
+}
+
+
+.xizmatlar2{
+    text-align: center;
+}
+
+.cards{
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.xizmatlar2 h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+
+
+    text-align: center;
+
+    color: #000000;
+    margin-top: 56px;
+    margin-bottom: 24px;
+}
+
+
+
+
+.card{
+    padding: 24px 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-right: 70px;
+    margin-bottom: 48px;
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover{
+    box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+}
+
+.card:active{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card:nth-child(3){
+    margin-right: 0;
+}
+
+
+.card p{
+    margin-bottom: 24px;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    
+    text-align: center;
+    
+}
+
+.card:nth-child(1):before{
+    content: "";
+    width: 202px;
+    height: 130px;
+    background: url("../img/card-1.png");
+    margin-bottom: 16px;
+}
+
+.card:nth-child(2):before{
+    content: "";
+    width: 202px;
+    height: 130px;
+    background: url("../img/card-2.png");
+    margin-bottom: 16px;
+}
+
+.card:nth-child(3):before{
+    content: "";
+    width: 202px;
+    height: 130px;
+    background: url("../img/card-3.png");
+    margin-bottom: 16px;
+}
+
+.card:nth-child(4):before{
+    content: "";
+    width: 202px;
+    height: 130px;
+    background: url("../img/card-4.png");
+    margin-bottom: 16px;
+}
+
+.card:nth-child(5):before{
+    content: "";
+    width: 202px;
+    height: 130px;
+    background: url("../img/card-5.png");
+    margin-bottom: 16px;
+}
+
+
+
+/* qanday ishlaymiz */
+
+.qanday-ishlaymiz{
+    text-align: center;
+}
+.qanday-ishlaymiz h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+
+
+    text-align: center;
+
+    color: #000000;
+    margin-top: 56px;
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+/* forma */
+
+.forma-section{
+    /* display: flex; */
+    background:#00BAFC ;
+    text-align: center;
+    
+    /* background: #00BAFC */
+}
+
+.forma-section h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+
+
+    text-align: center;
+
+    color: #000000;
+    margin-top: 56px;
+    margin-bottom: 24px;
+}
+
+
+
